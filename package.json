@@ -1,0 +1,27 @@
+{
+  "name": "fpms-al",
+  "version": "1.0.0",
+  "description": "A cool TypeScript package.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "ts-node dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/facebook-nodejs-business-sdk": "^22.0.0",
+    "@types/node": "^20.5.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "facebook-nodejs-business-sdk": "^23.0.1"
+  }
+}
