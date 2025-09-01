@@ -1,5 +1,5 @@
 {
-  "name": "fpms-al",
+  "name": "@snsoft/fpms-analytics",
   "version": "1.0.0",
   "description": "A cool TypeScript package.",
   "main": "dist/index.js",
@@ -8,6 +8,9 @@
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "start": "ts-node dist/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "dist"

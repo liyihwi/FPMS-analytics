@@ -1,0 +1,17 @@
+export enum EventName {
+  Login = "Login",
+  CompleteRegistration = "CompleteRegistration",
+  InitiateCheckout = "InitiateCheckout",
+  Purchase = "Purchase",
+  OldRegPurchase = "OldRegPurchase",
+  AddToCart = "AddToCart",
+  TPFirstDeposit = "TPFirstDeposit",
+  Deposit500000andAbove = "Deposit500000andAbove",
+  Deposit50000 = "Deposit50000-499999",
+  Deposit5000 = "Deposit5000-49999",
+  Deposit500 = "Deposit500-4999",
+  Deposit20 = "Deposit20-499",
+  FD500 = "FD500",
+  FD200 = "FD200-499",
+  FD20 = "FD20-199",
+}
