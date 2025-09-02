@@ -14,4 +14,5 @@ export enum EventName {
   FD500 = "FD500",
   FD200 = "FD200-499",
   FD20 = "FD20-199",
+  Subscribe = "Subscribe",
 }
